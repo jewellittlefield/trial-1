@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Demo</title>
+</head>
+<body>
+
+ <form action="arrayDemo.php" method="POST">
+ 
+<h1> Array Demo Assignment</h1>
+
+ <label for="rows">Number of rows:</label><br>
+  <input type="number" id="rows" name="rows"  min="1"><br><br>
+  
+  <label for="columns">Number of columns:</label><br>
+  <input type="number" id="columns" name="columns" min="1"><br><br>
+  
+  <label for="minVal">Min Value:</label><br>
+  <input type="number" id="min" name="min"><br><br>
+  
+  <label for="maxVal">Max Value:</label><br>
+  <input type="number" id="max" name="max"><br><br>
+ 
+  <input type="submit" value="Generate Arrays">
+  <input type="reset" value="Reset Values">
+</form> 
