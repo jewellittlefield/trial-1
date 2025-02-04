@@ -17,11 +17,11 @@
   <label for="columns">Number of columns:</label><br>
   <input type="number" id="columns" name="columns" min="1"><br><br>
   
-  <label for="minVal">Min Value:</label><br>
-  <input type="number" id="min" name="min"><br><br>
-  
-  <label for="maxVal">Max Value:</label><br>
-  <input type="number" id="max" name="max"><br><br>
+  <label for="min">Min Value:</label><br>
+  <input type="number" id="min" name="min" required><br><br>
+
+  <label for="max">Max Value:</label><br>
+  <input type="number" id="max" name="max" required><br><br>
  
   <input type="submit" value="Generate Arrays">
   <input type="reset" value="Reset Values">
