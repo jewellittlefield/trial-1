@@ -19,10 +19,10 @@
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
-	$rows = intval($_POST["rows"]);
-	$columns = intval($_POST["columns"]);
-	$min = intval($_POST["min"]);
-	$max = intval($_POST["max"]);
+    $rows = isset($_POST["rows"]) ? intval($_POST["rows"]) : 0;
+    $columns = isset($_POST["columns"]) ? intval($_POST["columns"]) : 0;
+    $min = isset($_POST["min"]) ? intval($_POST["min"]) : 0;
+    $max = isset($_POST["max"]) ? intval($_POST["max"]) : 0;
 }
 
 if ($rows <= 0 || $columns <= 0 || $min > $max){
